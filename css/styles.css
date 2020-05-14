@@ -1,0 +1,110 @@
+
+/* HTML Elements */
+
+html {
+  width: 100%;
+  max-width: 1440px;
+}
+
+body {
+    width: 100%;
+    max-width: 1440px;
+    background-color: hsl(257, 40%, 49%);
+    font-family: Poppins, sans-serif;
+    color: #ffffff;
+}
+
+h1{
+  font-weight: 700;
+  width: 100%;
+  line-height: 1.5;
+}
+
+p{
+  padding: 4% 0 2%;
+  font-size: 14px;
+  width: 100%;
+  line-height: 1.5;
+}
+
+
+/* Background */
+
+.bg-img{
+  position: absolute;
+  width: 100%;
+  max-width: 1440px;
+  z-index: -1;
+}
+
+
+
+/* Right Side */
+
+.col-lg-7{
+  /* padding: 13% 5% 3% 6%; */
+  margin: 3% 3%;
+}
+
+.logo{
+  position: relative;
+  margin-left: 10px;
+  margin-bottom: 100px;
+}
+
+.illustration{
+  position: relative;
+  width: 100%;
+}
+
+
+/* Left Side */
+
+.col-lg-4{
+  margin: 20% 0;
+}
+
+
+.register-btn {
+  font-family: Poppins, sans-serif;
+  color: #9E43CC !important;
+  font-size: 12px;
+  box-shadow: 0px 0px 2px #000;
+  padding: 10px 45px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  background: #ffffff;
+}
+
+.register-btn:hover {
+  color: #14396A !important;
+  background: #DAB4F0;
+}
+
+
+/* Footer */
+
+.icons{
+  margin-left: 83%;
+}
+
+.fab{
+  display: inline;
+  padding: 0 10px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media (max-width: 990px) {
+  body{
+    text-align: center;
+  }
+
+  .icons{
+    text-align: center;
+    margin: 0;
+  }
+}
